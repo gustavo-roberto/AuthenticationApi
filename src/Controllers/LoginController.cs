@@ -19,7 +19,7 @@ namespace AuthenticationApi.Controllers
         }
 
         [HttpPost("UserCreate")]
-        public IActionResult AuthenticationUserCreate([FromBody] UserLogin user)
+        public IActionResult AuthenticationUserCreate([FromBody] UserFormCreation user)
         {
             try
             {
